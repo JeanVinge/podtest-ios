@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "podtest-ios"
   s.version          = "0.1.0"
-  s.summary          = "Testing how to do a pod."
+  s.summary          = "Print someshit for test."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,18 +17,17 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
-                        aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                        aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                        A short description of podtest-ios...
                        DESC
 
-  s.homepage         = "https://github.com/JeanVinge/podtest-ios"
+  s.homepage         = "https://github.com/jeanvinge/podtest-ios"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Jean Vinge" => "jean.vinge@concrete.com.br" }
-  s.source           = { :git => "https://github.com/JeanVinge/podtest-ios.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/jeanvinge/podtest-ios.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/jeanvinge'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'

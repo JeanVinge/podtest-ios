@@ -1,6 +1,0 @@
-framework module podtest_ios {
-  umbrella header "podtest-ios-umbrella.h"
-
-  export *
-  module * { export * }
-}
