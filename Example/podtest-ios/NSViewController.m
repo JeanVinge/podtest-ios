@@ -7,7 +7,7 @@
 //
 
 #import "NSViewController.h"
-
+#import "NSLogPrinter.h"
 
 
 @interface NSViewController ()
@@ -20,6 +20,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSLogPrinter *pt = [[NSLogPrinter alloc] initWithText:@"aeeeeee"];
+    
 }
 
 - (void)didReceiveMemoryWarning

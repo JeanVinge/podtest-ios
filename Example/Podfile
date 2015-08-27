@@ -1,13 +1,12 @@
 source 'https://github.com/CocoaPods/Specs.git'
-#use_frameworks!
+use_frameworks!
 
 target 'podtest-ios_Example', :exclusive => true do
-  pod "podtest-ios"
+  pod "podtest-ios", :path => "../"
 end
 
 target 'podtest-ios_Tests', :exclusive => true do
-  pod "podtest-ios"
-  #pod "podtest-ios", :path => "../"
+  pod "podtest-ios", :path => "../"
 
   pod 'Specta'
   pod 'Expecta'

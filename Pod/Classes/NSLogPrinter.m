@@ -12,9 +12,8 @@
 
 - (instancetype)initWithText:(NSString *)text {
     if (self = [super init]) {
-        NSLog(@" print = %@", text);
+        NSLog(@"text = %@", text);
     }
-    
     return self;
 }
 

@@ -14,7 +14,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Expecta: 54e8a3530add08f4f0208c111355eda7cde74a53
-  podtest-ios: 7afff0349ecbb5a1bef22fb5dd73210c707da7bc
+  podtest-ios: cd5a4927ab5e76a758551228c2b10d8312dd41be
   Specta: cf3e4188cf35375c3ee2cd03f8db8f1f4ef98234
 
 COCOAPODS: 0.38.2
